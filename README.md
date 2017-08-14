@@ -37,7 +37,7 @@ A platform for registration of student-union cards which could be used for e.g. 
 This is a small GNOME Shell extension where you can pick your own "hot corners" for toggling the overview, or for running custom applications. You can also change the "hot corner" for the message tray.
 Writtin in Javascript
 
-## A MongoDB unit test used in a project
+## A MongoDB unit test I've used in a project
 
 ```javascript
 
