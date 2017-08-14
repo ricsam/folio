@@ -17,7 +17,7 @@ Anonymous (using TOR network) web crawler in phantomjs. The developed es6 code w
 ### 2015 - OriC-finder
 [http://ricsam.github.io/OriC-finder](http://ricsam.github.io/OriC-finder#select/){:target="_blank"}
 
-Bioinformatic algorithms in CoffeeScript, served either under an express server where data is [downloaded](https://github.com/ricsam/OriC-finder/blob/v2.0/modules/genome-download.coffee){:target="_blank"} from `ftp.ncbi.nlm.nih.gov`, or as a front-end only application where cached data is used (using the precursor from ["ph pages server"](https://ricsam.github.io/folio/#2015---github-server--member-platform).
+Bioinformatic algorithms in CoffeeScript, served either under an express server where data is [downloaded](https://github.com/ricsam/OriC-finder/blob/v2.0/modules/genome-download.coffee){:target="_blank"} from `ftp.ncbi.nlm.nih.gov`, or as a front-end only application where cached data is used (using the precursor from ["ph pages server"](https://ricsam.github.io/folio/#2015---gh-pages-server--member-platform).
 
 - [The implemented "dnaa algorithm"](https://github.com/ricsam/OriC-finder/tree/v2.0/public/pages_/dnaa){:target="_blank"}, initialized from main.coffee
 - [The implementation of the front-end application logic](https://github.com/ricsam/OriC-finder/tree/v2.0/public/server_){:target="_blank"}
@@ -29,7 +29,7 @@ Bioinformatic algorithms in CoffeeScript, served either under an express server 
 
 A platform for registration of student-union cards which could be used for e.g. events. To build this service I created a ["gh pages server (github pages server)"](https://github.com/ricsam/member-platform/tree/gh-pages/amd_/js){:target="_blank"} which uses the 404.html page to route paths to content. The resources needed can be defined in a simple manner using [router.json](https://github.com/ricsam/member-platform/blob/gh-pages/router.json){:target="_blank"}. The gh pages server, which is simply a front-end only service, is designed to have the same functionality as a normal server when it comes to routing, with URL wildcards and aliases. The main content served in the platform is in the form of ["apps"](https://github.com/ricsam/member-platform/tree/gh-pages/apps_){:target="_blank"} which can have associated settings pages and permissions. 
 
-### Hot-Corn-Dog 2012
+### 2012 - Hot-Corn-Dog
 [https://github.com/ricsam/Hot-Corn-Dog](https://github.com/ricsam/Hot-Corn-Dog){:target="_blank"}
 
 This is a small GNOME Shell extension where you can pick your own "hot corners" for toggling the overview, or for running custom applications. You can also change the "hot corner" for the message tray.
