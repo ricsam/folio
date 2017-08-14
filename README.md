@@ -1,8 +1,7 @@
 ## Projects
 
 ### 2016 - "local-server-deployer"
-Anonymous (using TOR network) web crawler in phantomjs. The developed es6 code was automatically [deployed](https://github.com/ricsam/local-server-deployer/blob/master/deployer.js) via CRUD operations to servers on the local network. The local servers executes a [configure.js](https://github.com/ricsam/local-server-deployer/blob/master/local/configure.js) which handles the prerequisites to run the application. Thereafter the phantomjs instance is started with the [web crawler code](https://github.com/ricsam/local-server-deployer/blob/master/local/scripts/crawler.js)
-Compiles and deploys code to local 
+Anonymous (using TOR network) web crawler in phantomjs. The developed es6 code was automatically [deployed](https://github.com/ricsam/local-server-deployer/blob/master/deployer.js) via CRUD operations to servers on the local network. The local servers executes a [configure.js](https://github.com/ricsam/local-server-deployer/blob/master/local/configure.js) which handles the prerequisites to run the application. Thereafter the phantomjs instance is started with the [web crawler code](https://github.com/ricsam/local-server-deployer/blob/master/local/scripts/crawler.js).
 
 ### 2015 - OriC-finder
 #### [http://ricsam.github.io/OriC-finder#select/] http://ricsam.github.io/OriC-finder
