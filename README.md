@@ -13,3 +13,52 @@ Bioinformatic algorithms in CoffeeScript, served either as a express server wher
 - [The implemented "dnaa algorithm"](https://github.com/ricsam/OriC-finder/tree/v2.0/public/pages_/dnaa), initialized from main.coffee
 - [The implementation of the front-end application logic](https://github.com/ricsam/OriC-finder/tree/v2.0/public/server_)
 
+
+### 2015 - GitHub server / member-platform
+[https://github.com/ricsam/member-platform/tree/gh-pages](https://github.com/ricsam/member-platform/tree/gh-pages)
+A platform for registration of student-union cards which could be used for e.g. events. To build this service I created a "github server" which uses the 404.html page to route paths to content. The resources needed can be defined in a simple manner using routes.json. The github server, which is simply a front-end only service, is designed to have the same functionality as a normal server when it comes to routing, with URL wildcards and aliases. The main content served in the platform is in the form of "apps" which can have associated settings pages and permissions. 
+[https://ricsam.github.io/member-platform/apps/register-with-autofill](https://ricsam.github.io/member-platform/apps/register-with-autofill)
+
+e.g. [https://ricsam.github.io/apps/register-with-autofill](https://ricsam.github.io/apps/register-with-autofill)
+
+### automator
+[https://github.com/ricsam/automator/blob/master/scripts/GUI/Action-module.js](https://github.com/ricsam/automator/blob/master/scripts/GUI/Action-module.js) Skrivet i React.js och Electon
+```JSX
+
+import React from 'react';
+
+import * as _ from 'underscore'
+
+
+export default class Action extends React.Component {
+	constructor(props) {
+		super(props);
+		// dont use onSave or reference as fkn properties here!
+
+		this.props.onSave(this.saveState, this);
+	}
+
+	componentWillReceiveProps(nextProps) {
+		let new_keys = _.pick(nextProps, ...this.keys);
+
+		if ( ! _.isEqual(new_keys, _.pick(this.state, ...this.keys)) ) {
+			this.setState(new_keys);
+		}
+	}
+
+
+	saveState() {
+		return {
+			data: _.pick(this.state, ...this.keys),
+			reference: this.props.reference
+		}
+	}
+
+
+}
+
+```
+
+
+### Hot-Corn-Dog
+[https://github.com/ricsam/Hot-Corn-Dog](https://github.com/ricsam/Hot-Corn-Dog)
