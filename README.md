@@ -5,6 +5,7 @@
 
 ### 2017 - "killergame"
 [https://killergame-42f36.firebaseapp.com/](https://killergame-42f36.firebaseapp.com/){:target="_blank"}
+
 A game developed in Firebase. Using the firebase API to [serve notifications](https://github.com/ricsam/killergame/blob/master/functions/firebase-messaging-sw.js){:target="_blank"} and [handle login and DB](https://github.com/ricsam/killergame/blob/master/functions/app/metamorph-functions.js#L320){:target="_blank"}. The server side code in firebase is hard to test and slow to deploy, however the backend API is more or less the same as the frontend. Thus I developed the API in an [isomorfic manner](https://github.com/ricsam/killergame/blob/master/functions/app/metamorph-functions.js#L6){:target="_blank"} so I could test back-end logic in the webbrowser. The complete application logic is confined in [main.js](https://github.com/ricsam/killergame/blob/master/functions/app/main.js){:target="_blank"} and [ui-binds.js](https://github.com/ricsam/killergame/blob/master/functions/app/ui-binds.js){:target="_blank"}
 
 ### 2016 - "local-server-deployer"
