@@ -47,7 +47,7 @@ const MongoClient = require('mongodb').MongoClient;
 const url = 'mongodb://localhost:27017/ExchangeData';
 
 
-/* TEST DESIGN 
+/* OVERALL TEST DESIGN 
   (1) Nodes are set onto UAIT
   (2) They are saved to DB using DB handler.
   (3) See if result is expected.
@@ -58,7 +58,7 @@ console.clear();
 console.log('DBHandler.js @saveNode(node) -> undefined');
 
 MongoClient.connect(url, function(err, db) {
-try {(() => {
+(() => {
 
   delete require.cache[require.resolve('util/DBHandler.js')];
   const assert = require('assert');
@@ -158,7 +158,7 @@ try {(() => {
     assert.equal(docs.length, 2);
     // docs = await dbh.collection.find({}).toArray();
 
-    /* this was a hard bug to find! */
+    /* this was a hard bug to find! - test small node inserted onto large DB node */
     await dbh.collection.deleteMany({});
     nodes = createNodes(3, 27, 1, 1); /* DB large */
     nodes2 = createNodes(21, 24, 1, 1); /* node small */
@@ -201,6 +201,6 @@ try {(() => {
     db.close();
   }
 
-})()} catch (e) {} }); })();
+})();
 
 ```
