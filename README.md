@@ -9,7 +9,7 @@ Anonymous (using TOR network) web crawler in phantomjs. The developed es6 code w
 
 ### 2015 - OriC-finder
 [http://ricsam.github.io/OriC-finder](http://ricsam.github.io/OriC-finder#select/){:target="_blank"}
-Bioinformatic algorithms in CoffeeScript, served either under an express server where data is [downloaded](https://github.com/ricsam/OriC-finder/blob/v2.0/modules/genome-download.coffee){:target="_blank"} from `ftp.ncbi.nlm.nih.gov`, or as a front-end only application where cached data is used (this isomorfic logic is handled like [this](https://github.com/ricsam/OriC-finder/blob/3088e3d168cb9454edbec257437cc32dcd844ad1/public/server_/GenBank.coffee#L84){:target="_blank"}.
+Bioinformatic algorithms in CoffeeScript, served either under an express server where data is [downloaded](https://github.com/ricsam/OriC-finder/blob/v2.0/modules/genome-download.coffee){:target="_blank"} from `ftp.ncbi.nlm.nih.gov`, or as a front-end only application where cached data is used (this isomorfic logic is handled like [this](https://github.com/ricsam/OriC-finder/blob/3088e3d168cb9454edbec257437cc32dcd844ad1/public/server_/GenBank.coffee#L84){:target="_blank"}).
 
 - [The implemented "dnaa algorithm"](https://github.com/ricsam/OriC-finder/tree/v2.0/public/pages_/dnaa){:target="_blank"}, initialized from main.coffee
 - [The implementation of the front-end application logic](https://github.com/ricsam/OriC-finder/tree/v2.0/public/server_){:target="_blank"}
@@ -17,8 +17,10 @@ Bioinformatic algorithms in CoffeeScript, served either under an express server 
 
 
 ### 2015 - GitHub server / member-platform
-[Demo](https://ricsam.github.io/member-platform-apps/register-with-autofill){:target="_blank"} (not configured to run on the github pages domain){:target="_blank"}
-[Source](https://github.com/ricsam/member-platform/tree/gh-pages){:target="_blank"}
+
+- [Demo](https://ricsam.github.io/member-platform/apps/register-with-autofill){:target="_blank"} (not configured to run on the github pages domain)
+- [Source](https://github.com/ricsam/member-platform/tree/gh-pages){:target="_blank"}
+
 A platform for registration of student-union cards which could be used for e.g. events. To build this service I created a ["github server"](https://github.com/ricsam/member-platform/tree/gh-pages/amd_/js){:target="_blank"} which uses the 404.html page to route paths to content. The resources needed can be defined in a simple manner using [router.json](https://github.com/ricsam/member-platform/blob/gh-pages/router.json){:target="_blank"}. The github server, which is simply a front-end only service, is designed to have the same functionality as a normal server when it comes to routing, with URL wildcards and aliases. The main content served in the platform is in the form of ["apps"](https://github.com/ricsam/member-platform/tree/gh-pages/apps_){:target="_blank"} which can have associated settings pages and permissions. 
 [https://ricsam.github.io/member-platform/apps/register-with-autofill](https://ricsam.github.io/member-platform/apps/register-with-autofill){:target="_blank"}
 
