@@ -1,3 +1,6 @@
+## StackOverflow
+[https://stackoverflow.com/users/1105047/richie](https://stackoverflow.com/users/1105047/richie)
+
 ## Projects
 
 ### 2017 - "killergame"
