@@ -19,7 +19,7 @@ Written in React.js and Electron. Scripts like [this](https://github.com/ricsam/
 ### 2015 - OriC-finder
 [http://ricsam.github.io/OriC-finder](http://ricsam.github.io/OriC-finder#select/){:target="_blank"}
 
-Bioinformatic algorithms in CoffeeScript, served either under an express server where data is [downloaded](https://github.com/ricsam/OriC-finder/blob/v2.0/modules/genome-download.coffee){:target="_blank"} from `ftp.ncbi.nlm.nih.gov`, or as a front-end only application where cached data is used (using the precursor to ["gh pages server"](https://ricsam.github.io/folio/#2015---gh-pages-server--member-platform) for single-page app logic.
+Bioinformatic algorithms in CoffeeScript, served either under an express server where data is [downloaded](https://github.com/ricsam/OriC-finder/blob/v2.0/modules/genome-download.coffee){:target="_blank"} from `ftp.ncbi.nlm.nih.gov`, or as a front-end only application where cached data is used (the precursor to ["gh pages server"](https://ricsam.github.io/folio/#2015---gh-pages-server--member-platform) was used for single-page app logic).
 
 - [The implemented "dnaa algorithm"](https://github.com/ricsam/OriC-finder/tree/v2.0/public/pages_/dnaa){:target="_blank"}, initialized from main.coffee
 - [The implementation of the front-end application logic](https://github.com/ricsam/OriC-finder/tree/v2.0/public/server_){:target="_blank"}
