@@ -58,7 +58,6 @@ console.clear();
 console.log('DBHandler.js @saveNode(node) -> undefined');
 
 MongoClient.connect(url, function(err, db) {
-(() => {
 
   delete require.cache[require.resolve('util/DBHandler.js')];
   const assert = require('assert');
@@ -201,6 +200,6 @@ MongoClient.connect(url, function(err, db) {
     db.close();
   }
 
-})();
+});
 
 ```
