@@ -10,15 +10,15 @@ A game developed in Firebase. Using the firebase API to [serve notifications](ht
 ### 2016 - "local-server-deployer"
 Anonymous (using TOR network) web crawler in phantomjs. The developed es6 code was automatically [deployed](https://github.com/ricsam/local-server-deployer/blob/master/deployer.js){:target="_blank"} via CRUD operations to servers on the local network. The local servers executes a [js file](https://github.com/ricsam/local-server-deployer/blob/master/local/configure.js){:target="_blank"} which handles the prerequisites to run the application. Thereafter the phantomjs instance is started with the [web crawler code](https://github.com/ricsam/local-server-deployer/blob/master/local/scripts/crawler.js){:target="_blank"} which runs the underlying [API](https://github.com/ricsam/local-server-deployer/blob/master/local/scripts/keyboard-api.js){:target="_blank"} for common tasks, like moving mouse, typing and clicking links.
 
+### 2016 - Desktop automator
+[https://github.com/ricsam/automator](https://github.com/ricsam/automator){:target="_blank"} Written in React.js and Electron. Scripts like [this](https://github.com/ricsam/automator/blob/master/scripts/autoclicker.listener.js) are provided by a GUI like [this](https://github.com/ricsam/automator/blob/master/scripts/autoclicker.renderer.js#L88)
+
 ### 2015 - OriC-finder
 [http://ricsam.github.io/OriC-finder](http://ricsam.github.io/OriC-finder#select/){:target="_blank"}
 Bioinformatic algorithms in CoffeeScript, served either under an express server where data is [downloaded](https://github.com/ricsam/OriC-finder/blob/v2.0/modules/genome-download.coffee){:target="_blank"} from `ftp.ncbi.nlm.nih.gov`, or as a front-end only application where cached data is used (this isomorfic logic is handled like [this](https://github.com/ricsam/OriC-finder/blob/3088e3d168cb9454edbec257437cc32dcd844ad1/public/server_/GenBank.coffee#L84){:target="_blank"}).
 
 - [The implemented "dnaa algorithm"](https://github.com/ricsam/OriC-finder/tree/v2.0/public/pages_/dnaa){:target="_blank"}, initialized from main.coffee
 - [The implementation of the front-end application logic](https://github.com/ricsam/OriC-finder/tree/v2.0/public/server_){:target="_blank"}
-
-### Desktop automator 2016
-[https://github.com/ricsam/automator](https://github.com/ricsam/automator){:target="_blank"} Written in React.js and Electron. Scripts like [this](https://github.com/ricsam/automator/blob/master/scripts/autoclicker.listener.js) are provided by a GUI like [this](https://github.com/ricsam/automator/blob/master/scripts/autoclicker.renderer.js#L88)
 
 ### 2015 - GitHub server / member-platform
 
