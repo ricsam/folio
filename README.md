@@ -35,7 +35,7 @@ A platform for registration of student-union cards with an API to develop associ
 [https://github.com/ricsam/Hot-Corn-Dog](https://github.com/ricsam/Hot-Corn-Dog){:target="_blank"}
 
 This is a small GNOME Shell extension where you can pick your own "hot corners" for toggling the overview, or for running custom applications. You can also change the "hot corner" for the message tray.
-Writtin in Javascript
+Written in Javascript
 
 ## A MongoDB unit test I've used in a project
 
