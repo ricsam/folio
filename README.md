@@ -1,5 +1,5 @@
 ## StackOverflow
-[https://stackoverflow.com/users/1105047/richie](https://stackoverflow.com/users/1105047/richie)
+[https://stackoverflow.com/users/1105047/richie](https://stackoverflow.com/users/1105047/richie){:target="_blank"}
 
 ## Projects
 
