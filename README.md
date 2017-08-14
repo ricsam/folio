@@ -12,7 +12,9 @@ A game developed in Firebase. Using the firebase API to [serve notifications](ht
 Anonymous (using TOR network) web crawler in phantomjs. The developed es6 code was automatically and [deployed](https://github.com/ricsam/local-server-deployer/blob/master/deployer.js){:target="_blank"} via CRUD operations to servers on the local network. The local servers executes a [js file](https://github.com/ricsam/local-server-deployer/blob/master/local/configure.js){:target="_blank"} which handles the prerequisites to run the application (e.g. starting TOR and Babel compiling). Thereafter the phantomjs instance is started with the [web crawler code](https://github.com/ricsam/local-server-deployer/blob/master/local/scripts/crawler.js){:target="_blank"} which runs the underlying [API](https://github.com/ricsam/local-server-deployer/blob/master/local/scripts/keyboard-api.js){:target="_blank"} for common tasks, like moving mouse, typing and clicking links.
 
 ### 2016 - Desktop automator
-[https://github.com/ricsam/automator](https://github.com/ricsam/automator){:target="_blank"} Written in React.js and Electron. Scripts like [this](https://github.com/ricsam/automator/blob/master/scripts/autoclicker.listener.js){:target="_blank"} are provided by a GUI like [this](https://github.com/ricsam/automator/blob/master/scripts/autoclicker.renderer.js#L88){:target="_blank"}
+[https://github.com/ricsam/automator](https://github.com/ricsam/automator){:target="_blank"}
+
+Written in React.js and Electron. Scripts like [this](https://github.com/ricsam/automator/blob/master/scripts/autoclicker.listener.js){:target="_blank"} are provided by a GUI like [this](https://github.com/ricsam/automator/blob/master/scripts/autoclicker.renderer.js#L88){:target="_blank"}
 
 ### 2015 - OriC-finder
 [http://ricsam.github.io/OriC-finder](http://ricsam.github.io/OriC-finder#select/){:target="_blank"}
