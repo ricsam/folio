@@ -15,12 +15,13 @@ Bioinformatic algorithms in CoffeeScript, served either under an express server 
 - [The implementation of the front-end application logic](https://github.com/ricsam/OriC-finder/tree/v2.0/public/server_)
 
 
+
 ### 2015 - GitHub server / member-platform
-[https://github.com/ricsam/member-platform/tree/gh-pages](https://github.com/ricsam/member-platform/tree/gh-pages)
-A platform for registration of student-union cards which could be used for e.g. events. To build this service I created a "github server" which uses the 404.html page to route paths to content. The resources needed can be defined in a simple manner using routes.json. The github server, which is simply a front-end only service, is designed to have the same functionality as a normal server when it comes to routing, with URL wildcards and aliases. The main content served in the platform is in the form of "apps" which can have associated settings pages and permissions. 
+[Demo](https://ricsam.github.io/member-platform-apps/register-with-autofill) (not configured to run on the github pages domain)
+[Source](https://github.com/ricsam/member-platform/tree/gh-pages)
+A platform for registration of student-union cards which could be used for e.g. events. To build this service I created a ["github server"](https://github.com/ricsam/member-platform/tree/gh-pages/amd_/js) which uses the 404.html page to route paths to content. The resources needed can be defined in a simple manner using [router.json](https://github.com/ricsam/member-platform/blob/gh-pages/router.json). The github server, which is simply a front-end only service, is designed to have the same functionality as a normal server when it comes to routing, with URL wildcards and aliases. The main content served in the platform is in the form of ["apps"](https://github.com/ricsam/member-platform/tree/gh-pages/apps_) which can have associated settings pages and permissions. 
 [https://ricsam.github.io/member-platform/apps/register-with-autofill](https://ricsam.github.io/member-platform/apps/register-with-autofill)
 
-e.g. [https://ricsam.github.io/apps/register-with-autofill](https://ricsam.github.io/apps/register-with-autofill)
 
 ### automator
 [https://github.com/ricsam/automator/blob/master/scripts/GUI/Action-module.js](https://github.com/ricsam/automator/blob/master/scripts/GUI/Action-module.js) Skrivet i React.js och Electon
