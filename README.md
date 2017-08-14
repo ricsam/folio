@@ -23,7 +23,7 @@ e.g. [https://ricsam.github.io/apps/register-with-autofill](https://ricsam.githu
 
 ### automator
 [https://github.com/ricsam/automator/blob/master/scripts/GUI/Action-module.js](https://github.com/ricsam/automator/blob/master/scripts/GUI/Action-module.js) Skrivet i React.js och Electon
-```JSX
+```javascript
 
 import React from 'react';
 
