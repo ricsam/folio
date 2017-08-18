@@ -1,6 +1,24 @@
 ## StackOverflow
 [https://stackoverflow.com/users/1105047/richie](https://stackoverflow.com/users/1105047/richie){:target="_blank"}
 
+## Open source
+
+### 2017 - ipc-promises
+[https://github.com/ricsam/ipc-promises](https://github.com/ricsam/ipc-promises){:target="_blank"}
+
+A ES6 promise interface for the use of the inter-process communication in Electron.js
+
+### 2015 - Murkel
+[https://github.com/ricsam/murkel](https://github.com/ricsam/murkel){:target="_blank"}
+
+Static website generator from markdown files
+
+### 2012 - Hot-Corn-Dog
+[https://github.com/ricsam/Hot-Corn-Dog](https://github.com/ricsam/Hot-Corn-Dog){:target="_blank"}
+
+This is a small GNOME Shell extension where you can pick your own "hot corners" for toggling the overview, or for running custom applications. You can also change the "hot corner" for the message tray.
+Written in Javascript
+
 ## Projects
 
 ### 2017 - "killergame"
@@ -31,11 +49,7 @@ Bioinformatic algorithms in CoffeeScript, served either under an express server 
 
 A platform for registration of student-union cards with an API to develop associated apps e.g. app for member-only ticket sales. To build this I created ["gh pages server" (github pages server)](https://github.com/ricsam/member-platform/tree/gh-pages/amd_/js){:target="_blank"} which uses the 404.html page to route paths to content. The resources needed can be defined in a simple manner using [router.json](https://github.com/ricsam/member-platform/blob/gh-pages/router.json){:target="_blank"}. The gh pages server, which is simply a front-end only service, is designed to have the same functionality as a normal server when it comes to routing, with URL wildcards and aliases. The main content served in the platform is in the form of ["apps"](https://github.com/ricsam/member-platform/tree/gh-pages/apps_){:target="_blank"} which can have associated settings pages and permissions. 
 
-### 2012 - Hot-Corn-Dog
-[https://github.com/ricsam/Hot-Corn-Dog](https://github.com/ricsam/Hot-Corn-Dog){:target="_blank"}
 
-This is a small GNOME Shell extension where you can pick your own "hot corners" for toggling the overview, or for running custom applications. You can also change the "hot corner" for the message tray.
-Written in Javascript
 
 ## A MongoDB unit test I've used in a project
 
