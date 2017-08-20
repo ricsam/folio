@@ -56,8 +56,6 @@ It runs in a simple test suite made for NW.js
 
 ```javascript
 
-(() => {
-
 const MongoClient = require('mongodb').MongoClient;
 const url = 'mongodb://localhost:27017/ExchangeData';
 
