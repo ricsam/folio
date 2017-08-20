@@ -58,6 +58,7 @@ It runs in a simple custom test suite made for NW.js
 
 const MongoClient = require('mongodb').MongoClient;
 const url = 'mongodb://localhost:27017/ExchangeData';
+var db;
 
 delete require.cache[require.resolve('util/DBHandler.js')];
 const DBHandler = require('util/DBHandler.js');
@@ -197,7 +198,8 @@ async function startTest() {
   db.close();
 }
 
-MongoClient.connect(url, function(err, db) {
+MongoClient.connect(url, function(err, _db) {
+  db = _db;
 
   const dbh = new DBHandler(db, 'test');
   dbh.collection.deleteMany({}).then(startTest).catch(e => {
