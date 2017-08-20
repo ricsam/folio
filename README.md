@@ -52,7 +52,7 @@ A platform for registration of student-union cards with an API to develop associ
 
 
 ## A MongoDB unit test
-It runs in a simple test suite made for NW.js
+It runs in a simple custom test suite made for NW.js
 
 ```javascript
 
