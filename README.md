@@ -20,10 +20,12 @@ This is a small GNOME Shell extension where you can pick your own "hot corners" 
 Written in Javascript
 
 ## Web app examples
-  * Nasa Media library search
+  * NASA Media library search
     * [Repo](https://github.com/ricsam/nasa-app){:target="_blank"}
     * [Demo](https://ricsam.github.io/nasa-app/){:target="_blank"}
-
+  * Weather app
+    * [Repo](https://github.com/ricsam/weather-app){:target="_blank"}
+    * [Demo](https://ricsam.github.io/weather-app/){:target="_blank"}
 ## Projects
 
 ### 2017 - "killergame"
