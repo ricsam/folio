@@ -19,7 +19,7 @@ Static website generator from markdown files
 This is a small GNOME Shell extension where you can pick your own "hot corners" for toggling the overview, or for running custom applications. You can also change the "hot corner" for the message tray.
 Written in Javascript
 
-## Web apps examples
+## Web app examples
   * Nasa Media library search
     * [Repo](https://github.com/ricsam/nasa-app){:target="_blank"}
     * [Demo](https://ricsam.github.io/nasa-app/){:target="_blank"}
