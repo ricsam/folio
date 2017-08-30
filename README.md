@@ -26,6 +26,9 @@ Written in Javascript
   * Weather app
     * [Repo](https://github.com/ricsam/weather-app){:target="_blank"}
     * [Demo](https://ricsam.github.io/weather-app/){:target="_blank"}
+
+
+
 ## Projects
 
 ### 2017 - "killergame"
